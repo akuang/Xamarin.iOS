@@ -2,7 +2,7 @@
 
 using UIKit;
 
-namespace Experiments
+namespace Xamarin.iOS.Experiments
 {
 	public partial class ViewController : UIViewController
 	{

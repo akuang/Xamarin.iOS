@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace Experiments
+namespace Xamarin.iOS.Experiments
 {
 	public class Application
 	{

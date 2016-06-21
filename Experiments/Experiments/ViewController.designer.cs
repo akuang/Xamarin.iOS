@@ -5,7 +5,7 @@
 //
 using Foundation;
 
-namespace Experiments
+namespace Xamarin.iOS.Experiments
 {
 	[Register("ViewController")]
 	partial class ViewController
