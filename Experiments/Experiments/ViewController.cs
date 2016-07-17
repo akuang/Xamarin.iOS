@@ -15,6 +15,8 @@ namespace Xamarin.iOS.Experiments
 		{
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.
+
+			TouchID.Login(this);
 		}
 
 		public override void DidReceiveMemoryWarning()
