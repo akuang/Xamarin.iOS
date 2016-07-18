@@ -100,6 +100,7 @@
     <Folder Include="Topics\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\UI\" />
+    <Folder Include="Topics\UIButton\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -119,6 +120,11 @@
     </Compile>
     <Compile Include="Topics\Login\TouchID.cs" />
     <Compile Include="Shared\UI\Dialogs\Alert.cs" />
+    <Compile Include="Topics\UIButton\ButtonStyling.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home-icon-98x98.png" />
+    <BundleResource Include="Resources\home-icon-70x70.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

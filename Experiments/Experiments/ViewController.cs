@@ -1,5 +1,6 @@
 ﻿using System;
-
+using CoreGraphics;
+using Foundation;
 using UIKit;
 
 namespace Xamarin.iOS.Experiments
@@ -17,6 +18,8 @@ namespace Xamarin.iOS.Experiments
 			// Perform any additional setup after loading the view, typically from a nib.
 
 			TouchID.Login(this);
+
+			ButtonStyling.VerticalAlignImageAndText(HomeTileButton, 0, 2);
 		}
 
 		public override void DidReceiveMemoryWarning()

@@ -14,8 +14,16 @@ namespace Xamarin.iOS.Experiments
     [Register ("ViewController")]
     partial class ViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton HomeTileButton { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (HomeTileButton != null) {
+                HomeTileButton.Dispose ();
+                HomeTileButton = null;
+            }
         }
     }
 }
