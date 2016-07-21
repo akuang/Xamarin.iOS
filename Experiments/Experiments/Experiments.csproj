@@ -101,6 +101,7 @@
     <Folder Include="Shared\" />
     <Folder Include="Shared\UI\" />
     <Folder Include="Topics\UIButton\" />
+    <Folder Include="Shared\Style\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -121,6 +122,7 @@
     <Compile Include="Topics\Login\TouchID.cs" />
     <Compile Include="Shared\UI\Dialogs\Alert.cs" />
     <Compile Include="Topics\UIButton\ButtonStyling.cs" />
+    <Compile Include="Shared\Style\UIColorExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\home-icon-98x98.png" />

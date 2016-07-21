@@ -20,6 +20,7 @@ namespace Xamarin.iOS.Experiments
 			TouchID.Login(this);
 
 			ButtonStyling.VerticalAlignImageAndText(HomeTileButton, 0, 2);
+			HomeTileButton.BackgroundColor = UIColor.Clear.FromHex(0x0CC4A9);
 		}
 
 		public override void DidReceiveMemoryWarning()
